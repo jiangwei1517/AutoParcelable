@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoParcelable.iml" filepath="$PROJECT_DIR$/AutoParcelable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parcelable-annotation/parcelable-annotation.iml" filepath="$PROJECT_DIR$/parcelable-annotation/parcelable-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parcelable-compiler/parcelable-compiler.iml" filepath="$PROJECT_DIR$/parcelable-compiler/parcelable-compiler.iml" />
+    </modules>
+  </component>
+</project>

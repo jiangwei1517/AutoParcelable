@@ -1,0 +1,18 @@
+apply plugin: 'com.android.application'
+apply from : rootProject.file('gradle/build.android.gradle')
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    apt project(':parcelable-compiler')
+    compile deps.appcompat
+    compile project(':parcelable-annotation')
+}
